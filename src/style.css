@@ -1,0 +1,19 @@
+*{ 
+    margin: none ;
+
+}
+
+body{
+    --dark-purple: hsla(321, 76%, 10%, 1);
+    --royal-purple: hsla(267, 30%, 50%, 1);
+    --fawn: hsla(29, 79%, 72%, 1);
+    --chestnut: hsla(7, 44%, 45%, 1);
+    --rusty-red: hsla(352, 68%, 50%, 1);
+    background-color: var(--fawn);
+}
+
+header{
+    background-color: var(--dark-purple);
+}
+
+
