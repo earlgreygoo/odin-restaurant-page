@@ -1,6 +1,6 @@
 *{ 
-    margin: none ;
-
+    margin: auto;
+    padding: 0;
 }
 
 body{
@@ -12,8 +12,42 @@ body{
     background-color: var(--fawn);
 }
 
-header{
+header {
     background-color: var(--dark-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-logo{
+    max-width: 20%;
+    max-height: 20%;
+    object-fit: scale-down;
+    border-radius: 25%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+button {
+    background-color: var(--chestnut);
+    width: 12rem;
+    height: 2rem;
+    border: none;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    cursor: pointer;
+    
+}
+
+.selected {
+    background-color: var(--fawn);
+    color: var(--royal-purple)
 }
 
 
